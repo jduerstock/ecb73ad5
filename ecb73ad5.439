@@ -638,16 +638,7 @@
 	.int	0x60000000		/* 0xfff6e9f4 60 00 00 00 */
 	.int	0x60000000		/* 0xfff6e9f8 60 00 00 00 */
 	.int	0x60000000		/* 0xfff6e9fc 60 00 00 00 */
-	.int	0x36383078		/* 0xfff6ea00 36 38 30 78 */
-	.int	0x3020456d		/* 0xfff6ea04 30 20 45 6d */
-	.int	0x756c6174		/* 0xfff6ea08 75 6c 61 74 */
-	.int	0x696f6e20		/* 0xfff6ea0c 69 6f 6e 20 */
-	.int	0x77726974		/* 0xfff6ea10 77 72 69 74 */
-	.int	0x74656e20		/* 0xfff6ea14 74 65 6e 20 */
-	.int	0x62792047		/* 0xfff6ea18 62 79 20 47 */
-	.int	0x61727920		/* 0xfff6ea1c 61 72 79 20 */
-	.int	0x44617669		/* 0xfff6ea20 44 61 76 69 */
-	.int	0x6469616e		/* 0xfff6ea24 64 69 61 6e */
+	.ascii	"680x0 Emulation written by Gary Davidian"	/* 0xfff6ea00 36 38 30 78 */
 	.int	0x00000000		/* 0xfff6ea28 00 00 00 00 */
 	.int	0x48000014		/* 0xfff6ea2c 48 00 00 14 */
 	.int	0x60000000		/* 0xfff6ea30 60 00 00 00 */
