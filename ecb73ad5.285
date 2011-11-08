@@ -1734,11 +1734,7 @@
 	.string	"AutoSizeDialog"	/* 0xffe3bb1e 41 75 74 6f */
 	.string	"StandardAlert"		/* 0xffe3bb2d 53 74 61 6e */
 	.string	"GetDialogItemAsControl"	/* 0xffe3bb3b 47 65 74 44 */
-	.word	0x4472			/* 0xffe3bb50 6c 00 44 72 */
-	.int	0x69766572		/* 0xffe3bb54 69 76 65 72 */
-	.int	0x53657276		/* 0xffe3bb58 53 65 72 76 */
-	.int	0x69636573		/* 0xffe3bb5c 69 63 65 73 */
-	.int	0x4c696200		/* 0xffe3bb60 4c 69 62 00 */
+	.string	"DriverServicesLib"	/* 0xffe3bb50 6c 00 44 72 */
 	.int	0x426c6f63		/* 0xffe3bb64 42 6c 6f 63 */
 	.int	0x6b5a6572		/* 0xffe3bb68 6b 5a 65 72 */
 	.int	0x6f00506f		/* 0xffe3bb6c 6f 00 50 6f */
