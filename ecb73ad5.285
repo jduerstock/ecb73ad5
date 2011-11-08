@@ -1730,10 +1730,8 @@
 	.int	0x64014a3f		/* 0xffe3bb04 64 01 4a 3f */
 	.int	0x422b460b		/* 0xffe3bb08 42 2b 46 0b */
 	.int	0x440017c2		/* 0xffe3bb0c 44 00 17 c2 */
-	.int	0x41707065		/* 0xffe3bb10 41 70 70 65 */
-	.int	0x6172616e		/* 0xffe3bb14 61 72 61 6e */
-	.int	0x63654c69		/* 0xffe3bb18 63 65 4c 69 */
-	.int	0x62004175		/* 0xffe3bb1c 62 00 41 75 */
+	.string	"AppearanceLib"		/* 0xffe3bb10 41 70 70 65 */
+	.word	0x4175			/* 0xffe3bb1c 41 75 */
 	.int	0x746f5369		/* 0xffe3bb20 74 6f 53 69 */
 	.int	0x7a654469		/* 0xffe3bb24 7a 65 44 69 */
 	.int	0x616c6f67		/* 0xffe3bb28 61 6c 6f 67 */
