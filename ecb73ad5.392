@@ -1294,12 +1294,8 @@
 	.int	0x7e2102a6		/* 0xfff11434 7e 21 02 a6 */
 	.int	0x922600d4		/* 0xfff11438 92 26 00 d4 */
 	.int	0x4800001d		/* 0xfff1143c 48 00 00 1d */
-	.int	0x4b65726e		/* 0xfff11440 4b 65 72 6e */
-	.int	0x656c2063		/* 0xfff11444 65 6c 20 63 */
-	.int	0x6f646520		/* 0xfff11448 6f 64 65 20 */
-	.int	0x62617365		/* 0xfff1144c 62 61 73 65 */
-	.int	0x20617420		/* 0xfff11450 20 61 74 20 */
-	.int	0x30780000		/* 0xfff11454 30 78 00 00 */
+	.string	"Kernel code base at 0x"	/* 0xfff11440 4b 65 72 6e */
+	.byte	0x00			/* 0xfff11457 00 */
 	.int	0x7d0802a6		/* 0xfff11458 7d 08 02 a6 */
 	.int	0x48014f85		/* 0xfff1145c 48 01 4f 85 */
 	.int	0x8101064c		/* 0xfff11460 81 01 06 4c */
