@@ -1111,13 +1111,9 @@
 	.string	"InterfaceLib"		/* 0xffcbb166 49 6e 74 65 */
 	.string	"NameRegistryLib"	/* 0xffcbb173 4e 61 6d 65 */
 	.string	"PrivateInterfaceLib"	/* 0xffcbb183 50 72 69 76 */
-	.ascii	"InstallInterruptFunctions"	/* 0xffcbb197 49 6e 73 74 */
-	.int	0x00476574		/* 0xffcbb1b0 00 47 65 74 */
-	.int	0x496e7465		/* 0xffcbb1b4 49 6e 74 65 */
-	.int	0x72727570		/* 0xffcbb1b8 72 72 75 70 */
-	.int	0x7446756e		/* 0xffcbb1bc 74 46 75 6e */
-	.int	0x6374696f		/* 0xffcbb1c0 63 74 69 6f */
-	.int	0x6e73004d		/* 0xffcbb1c4 6e 73 00 4d */
+	.string	"InstallInterruptFunctions"	/* 0xffcbb197 49 6e 73 74 */
+	.string	"GetInterruptFunctions"	/* 0xffcbb1b1 47 65 74 49 */
+	.byte	0x4d		/* 0xffcbb1c7 4d */
 	.int	0x6f64656d		/* 0xffcbb1c8 6f 64 65 6d */
 	.int	0x53746174		/* 0xffcbb1cc 53 74 61 74 */
 	.int	0x7573004e		/* 0xffcbb1d0 75 73 00 4e */
