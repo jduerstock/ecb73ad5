@@ -1733,13 +1733,8 @@
 	.string	"AppearanceLib"		/* 0xffe3bb10 41 70 70 65 */
 	.string	"AutoSizeDialog"	/* 0xffe3bb1e 41 75 74 6f */
 	.string	"StandardAlert"		/* 0xffe3bb2d 53 74 61 6e */
-	.byte	0x47			/* 0xffe3bb38 72 74 00 47 */
-	.int	0x65744469		/* 0xffe3bb3c 65 74 44 69 */
-	.int	0x616c6f67		/* 0xffe3bb40 61 6c 6f 67 */
-	.int	0x4974656d		/* 0xffe3bb44 49 74 65 6d */
-	.int	0x4173436f		/* 0xffe3bb48 41 73 43 6f */
-	.int	0x6e74726f		/* 0xffe3bb4c 6e 74 72 6f */
-	.int	0x6c004472		/* 0xffe3bb50 6c 00 44 72 */
+	.string	"GetDialogItemAsControl"	/* 0xffe3bb3b 47 65 74 44 */
+	.word	0x4472			/* 0xffe3bb50 6c 00 44 72 */
 	.int	0x69766572		/* 0xffe3bb54 69 76 65 72 */
 	.int	0x53657276		/* 0xffe3bb58 53 65 72 76 */
 	.int	0x69636573		/* 0xffe3bb5c 69 63 65 73 */
