@@ -2045,4 +2045,4 @@
 	.int	0x80bf0808		/* 0xfffffff0 80 bf 08 08 */
 	.int	0x4bf6d76c		/* 0xfffffff4 4b f6 d7 6c */
 	lwz     %r5,2056(%r31)		/* 0xfffffff8 80 bf 08 08 */
-	.int	0x4bf6d764		/* 0xfffffffc 4b f6 d7 64 */
+	b	loc_fff6d760		/* 0xfffffffc 4b f6 d7 64 */

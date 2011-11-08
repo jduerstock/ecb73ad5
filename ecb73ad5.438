@@ -1494,6 +1494,8 @@
 	.int	0x38c00010		/* 0xfff6d754 38 c0 00 10 */
 	.int	0x4e800021		/* 0xfff6d758 4e 80 00 21 */
 	.int	0x60000000		/* 0xfff6d75c 60 00 00 00 */
+
+loc_fff6d760:
 	.int	0x7ca803a6		/* 0xfff6d760 7c a8 03 a6 */
 	.int	0x38c0002c		/* 0xfff6d764 38 c0 00 2c */
 	.int	0x4e800021		/* 0xfff6d768 4e 80 00 21 */
