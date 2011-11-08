@@ -1107,29 +1107,11 @@
 	.int	0x01c101c1		/* 0xffcbb148 01 c1 01 c1 */
 	.int	0x01c101c1		/* 0xffcbb14c 01 c1 01 c1 */
 	.int	0x01c10000		/* 0xffcbb150 01 c1 00 00 */
-	.int	0x44726976		/* 0xffcbb154 44 72 69 76 */
-	.int	0x65725365		/* 0xffcbb158 65 72 53 65 */
-	.int	0x72766963		/* 0xffcbb15c 72 76 69 63 */
-	.int	0x65734c69		/* 0xffcbb160 65 73 4c 69 */
-	.int	0x6200496e		/* 0xffcbb164 62 00 49 6e */
-	.int	0x74657266		/* 0xffcbb168 74 65 72 66 */
-	.int	0x6163654c		/* 0xffcbb16c 61 63 65 4c */
-	.int	0x6962004e		/* 0xffcbb170 69 62 00 4e */
-	.int	0x616d6552		/* 0xffcbb174 61 6d 65 52 */
-	.int	0x65676973		/* 0xffcbb178 65 67 69 73 */
-	.int	0x7472794c		/* 0xffcbb17c 74 72 79 4c */
-	.int	0x69620050		/* 0xffcbb180 69 62 00 50 */
-	.int	0x72697661		/* 0xffcbb184 72 69 76 61 */
-	.int	0x7465496e		/* 0xffcbb188 74 65 49 6e */
-	.int	0x74657266		/* 0xffcbb18c 74 65 72 66 */
-	.int	0x6163654c		/* 0xffcbb190 61 63 65 4c */
-	.int	0x69620049		/* 0xffcbb194 69 62 00 49 */
-	.int	0x6e737461		/* 0xffcbb198 6e 73 74 61 */
-	.int	0x6c6c496e		/* 0xffcbb19c 6c 6c 49 6e */
-	.int	0x74657272		/* 0xffcbb1a0 74 65 72 72 */
-	.int	0x75707446		/* 0xffcbb1a4 75 70 74 46 */
-	.int	0x756e6374		/* 0xffcbb1a8 75 6e 63 74 */
-	.int	0x696f6e73		/* 0xffcbb1ac 69 6f 6e 73 */
+	.string	"DriverServicesLib"	/* 0xffcbb154 44 72 69 76 */
+	.string	"InterfaceLib"		/* 0xffcbb166 49 6e 74 65 */
+	.string	"NameRegistryLib"	/* 0xffcbb173 4e 61 6d 65 */
+	.string	"PrivateInterfaceLib"	/* 0xffcbb183 50 72 69 76 */
+	.ascii	"InstallInterruptFunctions"	/* 0xffcbb197 49 6e 73 74 */
 	.int	0x00476574		/* 0xffcbb1b0 00 47 65 74 */
 	.int	0x496e7465		/* 0xffcbb1b4 49 6e 74 65 */
 	.int	0x72727570		/* 0xffcbb1b8 72 72 75 70 */
