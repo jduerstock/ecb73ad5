@@ -1,13 +1,5 @@
 	.fill	1973, 4, 0x6b636b63	/* 0xffefe000 6b 63 6b 63 */
-	.int	0x4e657477		/* 0xffeffed4 4e 65 74 77 */
-	.int	0x6f726b5f		/* 0xffeffed8 6f 72 6b 5f */
-	.int	0x45746865		/* 0xffeffedc 45 74 68 65 */
-	.int	0x726e6574		/* 0xffeffee0 72 6e 65 74 */
-	.int	0x5f417070		/* 0xffeffee4 5f 41 70 70 */
-	.int	0x6c655f4f		/* 0xffeffee8 6c 65 5f 4f */
-	.int	0x70656e54		/* 0xffeffeec 70 65 6e 54 */
-	.int	0x72616e73		/* 0xffeffef0 72 61 6e 73 */
-	.int	0x706f7274		/* 0xffeffef4 70 6f 72 74 */
+	.ascii	"Network_Ethernet_Apple_OpenTransport"	/* 0xffeffed4 4e 65 74 77 */
 	.int	0x00000004		/* 0xffeffef8 00 00 00 04 */
 	.int	0x00010001		/* 0xffeffefc 00 01 00 01 */
 	.int	0x000401ff		/* 0xffefff00 00 04 01 ff */
