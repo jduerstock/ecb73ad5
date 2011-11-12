@@ -67,10 +67,10 @@
 
 loc_fff00108:
 	mtsprg1	%sp			/* 0xfff00108 7c 31 43 a6 */
-	.int	0x7c200026		/* 0xfff0010c 7c 20 00 26 */
-	.int	0x7c3243a6		/* 0xfff00110 7c 32 43 a6 */
-	.int	0x7c3b02a6		/* 0xfff00114 7c 3b 02 a6 */
-	.int	0x7c2ff120		/* 0xfff00118 7c 2f f1 20 */
+	mfcr	%sp			/* 0xfff0010c 7c 20 00 26 */
+	mtsprg2	%sp			/* 0xfff00110 7c 32 43 a6 */
+	mfsrr1	%sp			/* 0xfff00114 7c 3b 02 a6 */
+	mtcrf	255, %sp		/* 0xfff00118 7c 2f f1 20 */
 	.int	0x409e2ee4		/* 0xfff0011c 40 9e 2e e4 */
 	.int	0x7c30faa6		/* 0xfff00120 7c 30 fa a6 */
 	.int	0x7c2ff120		/* 0xfff00124 7c 2f f1 20 */
