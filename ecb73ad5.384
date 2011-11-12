@@ -66,7 +66,7 @@
 	.int	0x48000050		/* 0xfff00104 48 00 00 50 */
 
 loc_fff00108:
-	.int	0x7c3143a6		/* 0xfff00108 7c 31 43 a6 */
+	mtsprg1	%sp			/* 0xfff00108 7c 31 43 a6 */
 	.int	0x7c200026		/* 0xfff0010c 7c 20 00 26 */
 	.int	0x7c3243a6		/* 0xfff00110 7c 32 43 a6 */
 	.int	0x7c3b02a6		/* 0xfff00114 7c 3b 02 a6 */
