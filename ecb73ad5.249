@@ -310,7 +310,7 @@
 	.int	0x93df0000		/* 0xffdf24d4 93 df 00 00 */
 	.int	0x2c1e0000		/* 0xffdf24d8 2c 1e 00 00 */
 	.int	0x4082ffe8		/* 0xffdf24dc 40 82 ff e8 */
-	.int	0x38210040		/* 0xffdf24e0 38 21 00 40 */
+	addi	%r1,%r1,64		/* 0xffdf24e0 38 21 00 40 */
 	.int	0x80010008		/* 0xffdf24e4 80 01 00 08 */
 	.int	0x7c0803a6		/* 0xffdf24e8 7c 08 03 a6 */
 	.int	0xbbc1fff8		/* 0xffdf24ec bb c1 ff f8 */

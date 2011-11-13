@@ -715,7 +715,7 @@
 	.int	0x7fc3f378		/* 0xffdf0b28 7f c3 f3 78 */
 	.int	0x48005111		/* 0xffdf0b2c 48 00 51 11 */
 	.int	0x80410014		/* 0xffdf0b30 80 41 00 14 */
-	.int	0x38210040		/* 0xffdf0b34 38 21 00 40 */
+	addi	%r1,%r1,64		/* 0xffdf0b34 38 21 00 40 */
 	.int	0x80010008		/* 0xffdf0b38 80 01 00 08 */
 	.int	0x7c0803a6		/* 0xffdf0b3c 7c 08 03 a6 */
 	.int	0xbbc1fff8		/* 0xffdf0b40 bb c1 ff f8 */
