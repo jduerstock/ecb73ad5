@@ -1126,7 +1126,7 @@
 	.int	0x81890000		/* 0xffdfb194 81 89 00 00 */
 	.int	0x48000031		/* 0xffdfb198 48 00 00 31 */
 	.int	0x80410014		/* 0xffdfb19c 80 41 00 14 */
-	.int	0x38210040		/* 0xffdfb1a0 38 21 00 40 */
+	addi	%r1,%r1,64		/* 0xffdfb1a0 38 21 00 40 */
 	.int	0x80010008		/* 0xffdfb1a4 80 01 00 08 */
 	.int	0x7c0803a6		/* 0xffdfb1a8 7c 08 03 a6 */
 	.int	0x4e800020		/* 0xffdfb1ac 4e 80 00 20 */
