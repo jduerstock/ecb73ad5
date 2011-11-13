@@ -42,7 +42,7 @@
 	.int	0x4bf6c908		/* 0xffffe0a4 4b f6 c9 08 */
 	.int	0x2b880014		/* 0xffffe0a8 2b 88 00 14 */
 	.int	0x4bf6c900		/* 0xffffe0ac 4b f6 c9 00 */
-	.int	0x60000000		/* 0xffffe0b0 60 00 00 00 */
+	nop				/* 0xffffe0b0 60 00 00 00 */
 	.int	0x4bf6f91c		/* 0xffffe0b4 4b f6 f9 1c */
 	.int	0x80bf0978		/* 0xffffe0b8 80 bf 09 78 */
 	.int	0x4bf6f6a4		/* 0xffffe0bc 4b f6 f6 a4 */

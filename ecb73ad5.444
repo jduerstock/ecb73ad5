@@ -61,7 +61,7 @@
 	.int	0xb09f0b34		/* 0xfff780f0 b0 9f 0b 34 */
 	.int	0x4e800020		/* 0xfff780f4 4e 80 00 20 */
 	.int	0x4c842182		/* 0xfff780f8 4c 84 21 82 */
-	.int	0x60000000		/* 0xfff780fc 60 00 00 00 */
+	nop				/* 0xfff780fc 60 00 00 00 */
 	.int	0x907f0b38		/* 0xfff78100 90 7f 0b 38 */
 	.int	0x909f0b3c		/* 0xfff78104 90 9f 0b 3c */
 	.int	0x7c800026		/* 0xfff78108 7c 80 00 26 */
