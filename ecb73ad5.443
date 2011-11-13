@@ -929,7 +929,7 @@
 	.int	0x5a8c0008		/* 0xfff76e80 5a 8c 00 08 */
 	.int	0x5af00008		/* 0xfff76e84 5a f0 00 08 */
 	.int	0x4c842242		/* 0xfff76e88 4c 84 22 42 */
-	.int	0x807f0720		/* 0xfff76e8c 80 7f 07 20 */
+	lwz	%r3,1824(%r31)		/* 0xfff76e8c 80 7f 07 20 */
 	.int	0xa8980000		/* 0xfff76e90 a8 98 00 00 */
 	.int	0x80bc0028		/* 0xfff76e94 80 bc 00 28 */
 	.int	0x7c804120		/* 0xfff76e98 7c 80 41 20 */
