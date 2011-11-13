@@ -1,4 +1,4 @@
-	.int	0x807f0720		/* 0xfffd6000 80 7f 07 20 */
+	lwz	%r3,1824(%r31)		/* 0xfffd6000 80 7f 07 20 */
 	.int	0x4bf9377c		/* 0xfffd6004 4b f9 37 7c */
 	.int	0x807f0720		/* 0xfffd6008 80 7f 07 20 */
 	.int	0x4bf93774		/* 0xfffd600c 4b f9 37 74 */
