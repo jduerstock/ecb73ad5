@@ -372,8 +372,8 @@
 	.int	0x4800c4cd		/* 0xfff1c5cc 48 00 c4 cd */
 	.int	0x4bffe968		/* 0xfff1c5d0 4b ff e9 68 */
 	.int	0x4800ad0c		/* 0xfff1c5d4 48 00 ad 0c */
-	.int	0x60000000		/* 0xfff1c5d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff1c5dc 60 00 00 00 */
+	nop				/* 0xfff1c5d8 60 00 00 00 */
+	nop				/* 0xfff1c5dc 60 00 00 00 */
 	.int	0x39000034		/* 0xfff1c5e0 39 00 00 34 */
 	.int	0x48006241		/* 0xfff1c5e4 48 00 62 41 */
 	.int	0x7d1f4379		/* 0xfff1c5e8 7d 1f 43 79 */
