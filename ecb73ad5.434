@@ -269,7 +269,7 @@
 	.int	0x537d1b78		/* 0xfff64430 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff64434 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff64438 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff6443c 60 00 00 00 */
+	nop				/* 0xfff6443c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64440 af 78 00 02 */
 	.int	0x7d290734		/* 0xfff64444 7d 29 07 34 */
 	.int	0x537d1b78		/* 0xfff64448 53 7d 1b 78 */
@@ -285,7 +285,7 @@
 	.int	0x537d1b78		/* 0xfff64470 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff64474 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff64478 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff6447c 60 00 00 00 */
+	nop				/* 0xfff6447c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64480 af 78 00 02 */
 	.int	0x7d4a0734		/* 0xfff64484 7d 4a 07 34 */
 	.int	0x537d1b78		/* 0xfff64488 53 7d 1b 78 */
@@ -301,7 +301,7 @@
 	.int	0x537d1b78		/* 0xfff644b0 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff644b4 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff644b8 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff644bc 60 00 00 00 */
+	nop				/* 0xfff644bc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff644c0 af 78 00 02 */
 	.int	0x7d6b0734		/* 0xfff644c4 7d 6b 07 34 */
 	.int	0x537d1b78		/* 0xfff644c8 53 7d 1b 78 */
@@ -317,7 +317,7 @@
 	.int	0x537d1b78		/* 0xfff644f0 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff644f4 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff644f8 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff644fc 60 00 00 00 */
+	nop				/* 0xfff644fc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64500 af 78 00 02 */
 	.int	0x7d8c0734		/* 0xfff64504 7d 8c 07 34 */
 	.int	0x537d1b78		/* 0xfff64508 53 7d 1b 78 */
@@ -333,7 +333,7 @@
 	.int	0x537d1b78		/* 0xfff64530 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff64534 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff64538 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff6453c 60 00 00 00 */
+	nop				/* 0xfff6453c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64540 af 78 00 02 */
 	.int	0x7dad0734		/* 0xfff64544 7d ad 07 34 */
 	.int	0x537d1b78		/* 0xfff64548 53 7d 1b 78 */
@@ -349,7 +349,7 @@
 	.int	0x537d1b78		/* 0xfff64570 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff64574 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff64578 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff6457c 60 00 00 00 */
+	nop				/* 0xfff6457c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64580 af 78 00 02 */
 	.int	0x7dce0734		/* 0xfff64584 7d ce 07 34 */
 	.int	0x537d1b78		/* 0xfff64588 53 7d 1b 78 */
@@ -365,7 +365,7 @@
 	.int	0x537d1b78		/* 0xfff645b0 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff645b4 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff645b8 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff645bc 60 00 00 00 */
+	nop				/* 0xfff645bc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff645c0 af 78 00 02 */
 	.int	0x7def0734		/* 0xfff645c4 7d ef 07 34 */
 	.int	0x537d1b78		/* 0xfff645c8 53 7d 1b 78 */
@@ -381,71 +381,71 @@
 	.int	0x537d1b78		/* 0xfff645f0 53 7d 1b 78 */
 	.int	0x7fa803a6		/* 0xfff645f4 7f a8 03 a6 */
 	.int	0x4bffffd8		/* 0xfff645f8 4b ff ff d8 */
-	.int	0x60000000		/* 0xfff645fc 60 00 00 00 */
+	nop				/* 0xfff645fc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64600 af 78 00 02 */
 	.int	0x7d064378		/* 0xfff64604 7d 06 43 78 */
 	.int	0x48002339		/* 0xfff64608 48 00 23 39 */
 	.int	0x7ce83b78		/* 0xfff6460c 7c e8 3b 78 */
 	.int	0x4ca80420		/* 0xfff64610 4c a8 04 20 */
 	.int	0x48008b00		/* 0xfff64614 48 00 8b 00 */
-	.int	0x60000000		/* 0xfff64618 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6461c 60 00 00 00 */
+	nop				/* 0xfff64618 60 00 00 00 */
+	nop				/* 0xfff6461c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64620 af 78 00 02 */
 	.int	0x7d264b78		/* 0xfff64624 7d 26 4b 78 */
 	.int	0x48002319		/* 0xfff64628 48 00 23 19 */
 	.int	0x7ce93b78		/* 0xfff6462c 7c e9 3b 78 */
 	.int	0x4ca80420		/* 0xfff64630 4c a8 04 20 */
 	.int	0x48008ae0		/* 0xfff64634 48 00 8a e0 */
-	.int	0x60000000		/* 0xfff64638 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6463c 60 00 00 00 */
+	nop				/* 0xfff64638 60 00 00 00 */
+	nop				/* 0xfff6463c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64640 af 78 00 02 */
 	.int	0x7d465378		/* 0xfff64644 7d 46 53 78 */
 	.int	0x480022f9		/* 0xfff64648 48 00 22 f9 */
 	.int	0x7cea3b78		/* 0xfff6464c 7c ea 3b 78 */
 	.int	0x4ca80420		/* 0xfff64650 4c a8 04 20 */
 	.int	0x48008ac0		/* 0xfff64654 48 00 8a c0 */
-	.int	0x60000000		/* 0xfff64658 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6465c 60 00 00 00 */
+	nop				/* 0xfff64658 60 00 00 00 */
+	nop				/* 0xfff6465c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64660 af 78 00 02 */
 	.int	0x7d665b78		/* 0xfff64664 7d 66 5b 78 */
 	.int	0x480022d9		/* 0xfff64668 48 00 22 d9 */
 	.int	0x7ceb3b78		/* 0xfff6466c 7c eb 3b 78 */
 	.int	0x4ca80420		/* 0xfff64670 4c a8 04 20 */
 	.int	0x48008aa0		/* 0xfff64674 48 00 8a a0 */
-	.int	0x60000000		/* 0xfff64678 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6467c 60 00 00 00 */
+	nop				/* 0xfff64678 60 00 00 00 */
+	nop				/* 0xfff6467c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64680 af 78 00 02 */
 	.int	0x7d866378		/* 0xfff64684 7d 86 63 78 */
 	.int	0x480022b9		/* 0xfff64688 48 00 22 b9 */
 	.int	0x7cec3b78		/* 0xfff6468c 7c ec 3b 78 */
 	.int	0x4ca80420		/* 0xfff64690 4c a8 04 20 */
 	.int	0x48008a80		/* 0xfff64694 48 00 8a 80 */
-	.int	0x60000000		/* 0xfff64698 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6469c 60 00 00 00 */
+	nop				/* 0xfff64698 60 00 00 00 */
+	nop				/* 0xfff6469c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff646a0 af 78 00 02 */
 	.int	0x7da66b78		/* 0xfff646a4 7d a6 6b 78 */
 	.int	0x48002299		/* 0xfff646a8 48 00 22 99 */
 	.int	0x7ced3b78		/* 0xfff646ac 7c ed 3b 78 */
 	.int	0x4ca80420		/* 0xfff646b0 4c a8 04 20 */
 	.int	0x48008a60		/* 0xfff646b4 48 00 8a 60 */
-	.int	0x60000000		/* 0xfff646b8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff646bc 60 00 00 00 */
+	nop				/* 0xfff646b8 60 00 00 00 */
+	nop				/* 0xfff646bc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff646c0 af 78 00 02 */
 	.int	0x7dc67378		/* 0xfff646c4 7d c6 73 78 */
 	.int	0x48002279		/* 0xfff646c8 48 00 22 79 */
 	.int	0x7cee3b78		/* 0xfff646cc 7c ee 3b 78 */
 	.int	0x4ca80420		/* 0xfff646d0 4c a8 04 20 */
 	.int	0x48008a40		/* 0xfff646d4 48 00 8a 40 */
-	.int	0x60000000		/* 0xfff646d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff646dc 60 00 00 00 */
+	nop				/* 0xfff646d8 60 00 00 00 */
+	nop				/* 0xfff646dc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff646e0 af 78 00 02 */
 	.int	0x7de67b78		/* 0xfff646e4 7d e6 7b 78 */
 	.int	0x48002259		/* 0xfff646e8 48 00 22 59 */
 	.int	0x7cef3b78		/* 0xfff646ec 7c ef 3b 78 */
 	.int	0x4ca80420		/* 0xfff646f0 4c a8 04 20 */
 	.int	0x48008a20		/* 0xfff646f4 48 00 8a 20 */
-	.int	0x60000000		/* 0xfff646f8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff646fc 60 00 00 00 */
+	nop				/* 0xfff646f8 60 00 00 00 */
+	nop				/* 0xfff646fc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64700 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64704 54 84 04 3e */
 	.int	0x7d064378		/* 0xfff64708 7d 06 43 78 */
@@ -453,15 +453,15 @@
 	.int	0x7ce83b78		/* 0xfff64710 7c e8 3b 78 */
 	.int	0x4ca80420		/* 0xfff64714 4c a8 04 20 */
 	.int	0x480089fc		/* 0xfff64718 48 00 89 fc */
-	.int	0x60000000		/* 0xfff6471c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64720 60 00 00 00 */
+	nop				/* 0xfff6471c 60 00 00 00 */
+	nop				/* 0xfff64720 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff64724 48 00 00 1c */
-	.int	0x60000000		/* 0xfff64728 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6472c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64730 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64734 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64738 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6473c 60 00 00 00 */
+	nop				/* 0xfff64728 60 00 00 00 */
+	nop				/* 0xfff6472c 60 00 00 00 */
+	nop				/* 0xfff64730 60 00 00 00 */
+	nop				/* 0xfff64734 60 00 00 00 */
+	nop				/* 0xfff64738 60 00 00 00 */
+	nop				/* 0xfff6473c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64740 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64744 54 84 04 3e */
 	.int	0x7d264b78		/* 0xfff64748 7d 26 4b 78 */
@@ -469,15 +469,15 @@
 	.int	0x7ce93b78		/* 0xfff64750 7c e9 3b 78 */
 	.int	0x4ca80420		/* 0xfff64754 4c a8 04 20 */
 	.int	0x480089bc		/* 0xfff64758 48 00 89 bc */
-	.int	0x60000000		/* 0xfff6475c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64760 60 00 00 00 */
+	nop				/* 0xfff6475c 60 00 00 00 */
+	nop				/* 0xfff64760 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff64764 48 00 00 1c */
-	.int	0x60000000		/* 0xfff64768 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6476c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64770 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64774 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64778 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6477c 60 00 00 00 */
+	nop				/* 0xfff64768 60 00 00 00 */
+	nop				/* 0xfff6476c 60 00 00 00 */
+	nop				/* 0xfff64770 60 00 00 00 */
+	nop				/* 0xfff64774 60 00 00 00 */
+	nop				/* 0xfff64778 60 00 00 00 */
+	nop				/* 0xfff6477c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64780 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64784 54 84 04 3e */
 	.int	0x7d465378		/* 0xfff64788 7d 46 53 78 */
@@ -485,15 +485,15 @@
 	.int	0x7cea3b78		/* 0xfff64790 7c ea 3b 78 */
 	.int	0x4ca80420		/* 0xfff64794 4c a8 04 20 */
 	.int	0x4800897c		/* 0xfff64798 48 00 89 7c */
-	.int	0x60000000		/* 0xfff6479c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647a0 60 00 00 00 */
+	nop				/* 0xfff6479c 60 00 00 00 */
+	nop				/* 0xfff647a0 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff647a4 48 00 00 1c */
-	.int	0x60000000		/* 0xfff647a8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647ac 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647b0 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647b4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647b8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647bc 60 00 00 00 */
+	nop				/* 0xfff647a8 60 00 00 00 */
+	nop				/* 0xfff647ac 60 00 00 00 */
+	nop				/* 0xfff647b0 60 00 00 00 */
+	nop				/* 0xfff647b4 60 00 00 00 */
+	nop				/* 0xfff647b8 60 00 00 00 */
+	nop				/* 0xfff647bc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff647c0 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff647c4 54 84 04 3e */
 	.int	0x7d665b78		/* 0xfff647c8 7d 66 5b 78 */
@@ -501,15 +501,15 @@
 	.int	0x7ceb3b78		/* 0xfff647d0 7c eb 3b 78 */
 	.int	0x4ca80420		/* 0xfff647d4 4c a8 04 20 */
 	.int	0x4800893c		/* 0xfff647d8 48 00 89 3c */
-	.int	0x60000000		/* 0xfff647dc 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647e0 60 00 00 00 */
+	nop				/* 0xfff647dc 60 00 00 00 */
+	nop				/* 0xfff647e0 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff647e4 48 00 00 1c */
-	.int	0x60000000		/* 0xfff647e8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647ec 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647f0 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647f4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647f8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff647fc 60 00 00 00 */
+	nop				/* 0xfff647e8 60 00 00 00 */
+	nop				/* 0xfff647ec 60 00 00 00 */
+	nop				/* 0xfff647f0 60 00 00 00 */
+	nop				/* 0xfff647f4 60 00 00 00 */
+	nop				/* 0xfff647f8 60 00 00 00 */
+	nop				/* 0xfff647fc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64800 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64804 54 84 04 3e */
 	.int	0x7d866378		/* 0xfff64808 7d 86 63 78 */
@@ -517,15 +517,15 @@
 	.int	0x7cec3b78		/* 0xfff64810 7c ec 3b 78 */
 	.int	0x4ca80420		/* 0xfff64814 4c a8 04 20 */
 	.int	0x480088fc		/* 0xfff64818 48 00 88 fc */
-	.int	0x60000000		/* 0xfff6481c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64820 60 00 00 00 */
+	nop				/* 0xfff6481c 60 00 00 00 */
+	nop				/* 0xfff64820 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff64824 48 00 00 1c */
-	.int	0x60000000		/* 0xfff64828 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6482c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64830 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64834 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64838 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6483c 60 00 00 00 */
+	nop				/* 0xfff64828 60 00 00 00 */
+	nop				/* 0xfff6482c 60 00 00 00 */
+	nop				/* 0xfff64830 60 00 00 00 */
+	nop				/* 0xfff64834 60 00 00 00 */
+	nop				/* 0xfff64838 60 00 00 00 */
+	nop				/* 0xfff6483c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64840 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64844 54 84 04 3e */
 	.int	0x7da66b78		/* 0xfff64848 7d a6 6b 78 */
@@ -533,15 +533,15 @@
 	.int	0x7ced3b78		/* 0xfff64850 7c ed 3b 78 */
 	.int	0x4ca80420		/* 0xfff64854 4c a8 04 20 */
 	.int	0x480088bc		/* 0xfff64858 48 00 88 bc */
-	.int	0x60000000		/* 0xfff6485c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64860 60 00 00 00 */
+	nop				/* 0xfff6485c 60 00 00 00 */
+	nop				/* 0xfff64860 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff64864 48 00 00 1c */
-	.int	0x60000000		/* 0xfff64868 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6486c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64870 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64874 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64878 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6487c 60 00 00 00 */
+	nop				/* 0xfff64868 60 00 00 00 */
+	nop				/* 0xfff6486c 60 00 00 00 */
+	nop				/* 0xfff64870 60 00 00 00 */
+	nop				/* 0xfff64874 60 00 00 00 */
+	nop				/* 0xfff64878 60 00 00 00 */
+	nop				/* 0xfff6487c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff64880 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff64884 54 84 04 3e */
 	.int	0x7dc67378		/* 0xfff64888 7d c6 73 78 */
@@ -549,15 +549,15 @@
 	.int	0x7cee3b78		/* 0xfff64890 7c ee 3b 78 */
 	.int	0x4ca80420		/* 0xfff64894 4c a8 04 20 */
 	.int	0x4800887c		/* 0xfff64898 48 00 88 7c */
-	.int	0x60000000		/* 0xfff6489c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648a0 60 00 00 00 */
+	nop				/* 0xfff6489c 60 00 00 00 */
+	nop				/* 0xfff648a0 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff648a4 48 00 00 1c */
-	.int	0x60000000		/* 0xfff648a8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648ac 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648b0 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648b4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648b8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648bc 60 00 00 00 */
+	nop				/* 0xfff648a8 60 00 00 00 */
+	nop				/* 0xfff648ac 60 00 00 00 */
+	nop				/* 0xfff648b0 60 00 00 00 */
+	nop				/* 0xfff648b4 60 00 00 00 */
+	nop				/* 0xfff648b8 60 00 00 00 */
+	nop				/* 0xfff648bc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff648c0 af 78 00 02 */
 	.int	0x5484043e		/* 0xfff648c4 54 84 04 3e */
 	.int	0x7de67b78		/* 0xfff648c8 7d e6 7b 78 */
@@ -565,15 +565,15 @@
 	.int	0x7cef3b78		/* 0xfff648d0 7c ef 3b 78 */
 	.int	0x4ca80420		/* 0xfff648d4 4c a8 04 20 */
 	.int	0x4800883c		/* 0xfff648d8 48 00 88 3c */
-	.int	0x60000000		/* 0xfff648dc 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648e0 60 00 00 00 */
+	nop				/* 0xfff648dc 60 00 00 00 */
+	nop				/* 0xfff648e0 60 00 00 00 */
 	.int	0x4800001c		/* 0xfff648e4 48 00 00 1c */
-	.int	0x60000000		/* 0xfff648e8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648ec 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648f0 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648f4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648f8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff648fc 60 00 00 00 */
+	nop				/* 0xfff648e8 60 00 00 00 */
+	nop				/* 0xfff648ec 60 00 00 00 */
+	nop				/* 0xfff648f0 60 00 00 00 */
+	nop				/* 0xfff648f4 60 00 00 00 */
+	nop				/* 0xfff648f8 60 00 00 00 */
+	nop				/* 0xfff648fc 60 00 00 00 */
 	.int	0x3b180002		/* 0xfff64900 3b 18 00 02 */
 	.int	0xaf780002		/* 0xfff64904 af 78 00 02 */
 	.int	0x537d1b78		/* 0xfff64908 53 7d 1b 78 */
@@ -781,15 +781,15 @@
 	.int	0x7c841e30		/* 0xfff64c30 7c 84 1e 30 */
 	.int	0x5088847e		/* 0xfff64c34 50 88 84 7e */
 	.int	0x480025a8		/* 0xfff64c38 48 00 25 a8 */
-	.int	0x60000000		/* 0xfff64c3c 60 00 00 00 */
+	nop				/* 0xfff64c3c 60 00 00 00 */
 	.int	0x41820078		/* 0xfff64c40 41 82 00 78 */
 	.int	0x5504801e		/* 0xfff64c44 55 04 80 1e */
 	.int	0x7c861831		/* 0xfff64c48 7c 86 18 31 */
 	.int	0x50c8843e		/* 0xfff64c4c 50 c8 84 3e */
 	.int	0x480025b0		/* 0xfff64c50 48 00 25 b0 */
-	.int	0x60000000		/* 0xfff64c54 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64c58 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64c5c 60 00 00 00 */
+	nop				/* 0xfff64c54 60 00 00 00 */
+	nop				/* 0xfff64c58 60 00 00 00 */
+	nop				/* 0xfff64c5c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff64c60 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff64c64 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff64c68 54 63 07 3e */
@@ -805,7 +805,7 @@
 	.int	0x5c84183f		/* 0xfff64c90 5c 84 18 3f */
 	.int	0x5088043e		/* 0xfff64c94 50 88 04 3e */
 	.int	0x480025c8		/* 0xfff64c98 48 00 25 c8 */
-	.int	0x60000000		/* 0xfff64c9c 60 00 00 00 */
+	nop				/* 0xfff64c9c 60 00 00 00 */
 	.int	0x4082267d		/* 0xfff64ca0 40 82 26 7d */
 	.int	0x5504043e		/* 0xfff64ca4 55 04 04 3e */
 	.int	0x480026d9		/* 0xfff64ca8 48 00 26 d9 */
@@ -829,15 +829,15 @@
 	.int	0x7c841e30		/* 0xfff64cf0 7c 84 1e 30 */
 	.int	0x5089847e		/* 0xfff64cf4 50 89 84 7e */
 	.int	0x480024e8		/* 0xfff64cf8 48 00 24 e8 */
-	.int	0x60000000		/* 0xfff64cfc 60 00 00 00 */
+	nop				/* 0xfff64cfc 60 00 00 00 */
 	.int	0x41820078		/* 0xfff64d00 41 82 00 78 */
 	.int	0x5524801e		/* 0xfff64d04 55 24 80 1e */
 	.int	0x7c861831		/* 0xfff64d08 7c 86 18 31 */
 	.int	0x50c9843e		/* 0xfff64d0c 50 c9 84 3e */
 	.int	0x480024f0		/* 0xfff64d10 48 00 24 f0 */
-	.int	0x60000000		/* 0xfff64d14 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64d18 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64d1c 60 00 00 00 */
+	nop				/* 0xfff64d14 60 00 00 00 */
+	nop				/* 0xfff64d18 60 00 00 00 */
+	nop				/* 0xfff64d1c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff64d20 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff64d24 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff64d28 54 63 07 3e */
@@ -853,7 +853,7 @@
 	.int	0x5c84183f		/* 0xfff64d50 5c 84 18 3f */
 	.int	0x5089043e		/* 0xfff64d54 50 89 04 3e */
 	.int	0x48002508		/* 0xfff64d58 48 00 25 08 */
-	.int	0x60000000		/* 0xfff64d5c 60 00 00 00 */
+	nop				/* 0xfff64d5c 60 00 00 00 */
 	.int	0x408225bd		/* 0xfff64d60 40 82 25 bd */
 	.int	0x5524043e		/* 0xfff64d64 55 24 04 3e */
 	.int	0x48002619		/* 0xfff64d68 48 00 26 19 */
@@ -877,15 +877,15 @@
 	.int	0x7c841e30		/* 0xfff64db0 7c 84 1e 30 */
 	.int	0x508a847e		/* 0xfff64db4 50 8a 84 7e */
 	.int	0x48002428		/* 0xfff64db8 48 00 24 28 */
-	.int	0x60000000		/* 0xfff64dbc 60 00 00 00 */
+	nop				/* 0xfff64dbc 60 00 00 00 */
 	.int	0x41820078		/* 0xfff64dc0 41 82 00 78 */
 	.int	0x5544801e		/* 0xfff64dc4 55 44 80 1e */
 	.int	0x7c861831		/* 0xfff64dc8 7c 86 18 31 */
 	.int	0x50ca843e		/* 0xfff64dcc 50 ca 84 3e */
 	.int	0x48002430		/* 0xfff64dd0 48 00 24 30 */
-	.int	0x60000000		/* 0xfff64dd4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64dd8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64ddc 60 00 00 00 */
+	nop				/* 0xfff64dd4 60 00 00 00 */
+	nop				/* 0xfff64dd8 60 00 00 00 */
+	nop				/* 0xfff64ddc 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff64de0 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff64de4 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff64de8 54 63 07 3e */
@@ -901,7 +901,7 @@
 	.int	0x5c84183f		/* 0xfff64e10 5c 84 18 3f */
 	.int	0x508a043e		/* 0xfff64e14 50 8a 04 3e */
 	.int	0x48002448		/* 0xfff64e18 48 00 24 48 */
-	.int	0x60000000		/* 0xfff64e1c 60 00 00 00 */
+	nop				/* 0xfff64e1c 60 00 00 00 */
 	.int	0x408224fd		/* 0xfff64e20 40 82 24 fd */
 	.int	0x5544043e		/* 0xfff64e24 55 44 04 3e */
 	.int	0x48002559		/* 0xfff64e28 48 00 25 59 */
@@ -925,15 +925,15 @@
 	.int	0x7c841e30		/* 0xfff64e70 7c 84 1e 30 */
 	.int	0x508b847e		/* 0xfff64e74 50 8b 84 7e */
 	.int	0x48002368		/* 0xfff64e78 48 00 23 68 */
-	.int	0x60000000		/* 0xfff64e7c 60 00 00 00 */
+	nop				/* 0xfff64e7c 60 00 00 00 */
 	.int	0x41820078		/* 0xfff64e80 41 82 00 78 */
 	.int	0x5564801e		/* 0xfff64e84 55 64 80 1e */
 	.int	0x7c861831		/* 0xfff64e88 7c 86 18 31 */
 	.int	0x50cb843e		/* 0xfff64e8c 50 cb 84 3e */
 	.int	0x48002370		/* 0xfff64e90 48 00 23 70 */
-	.int	0x60000000		/* 0xfff64e94 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64e98 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64e9c 60 00 00 00 */
+	nop				/* 0xfff64e94 60 00 00 00 */
+	nop				/* 0xfff64e98 60 00 00 00 */
+	nop				/* 0xfff64e9c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff64ea0 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff64ea4 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff64ea8 54 63 07 3e */
@@ -949,7 +949,7 @@
 	.int	0x5c84183f		/* 0xfff64ed0 5c 84 18 3f */
 	.int	0x508b043e		/* 0xfff64ed4 50 8b 04 3e */
 	.int	0x48002388		/* 0xfff64ed8 48 00 23 88 */
-	.int	0x60000000		/* 0xfff64edc 60 00 00 00 */
+	nop				/* 0xfff64edc 60 00 00 00 */
 	.int	0x4082243d		/* 0xfff64ee0 40 82 24 3d */
 	.int	0x5564043e		/* 0xfff64ee4 55 64 04 3e */
 	.int	0x48002499		/* 0xfff64ee8 48 00 24 99 */
@@ -973,15 +973,15 @@
 	.int	0x7c841e30		/* 0xfff64f30 7c 84 1e 30 */
 	.int	0x508c847e		/* 0xfff64f34 50 8c 84 7e */
 	.int	0x480022a8		/* 0xfff64f38 48 00 22 a8 */
-	.int	0x60000000		/* 0xfff64f3c 60 00 00 00 */
+	nop				/* 0xfff64f3c 60 00 00 00 */
 	.int	0x41820078		/* 0xfff64f40 41 82 00 78 */
 	.int	0x5584801e		/* 0xfff64f44 55 84 80 1e */
 	.int	0x7c861831		/* 0xfff64f48 7c 86 18 31 */
 	.int	0x50cc843e		/* 0xfff64f4c 50 cc 84 3e */
 	.int	0x480022b0		/* 0xfff64f50 48 00 22 b0 */
-	.int	0x60000000		/* 0xfff64f54 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64f58 60 00 00 00 */
-	.int	0x60000000		/* 0xfff64f5c 60 00 00 00 */
+	nop				/* 0xfff64f54 60 00 00 00 */
+	nop				/* 0xfff64f58 60 00 00 00 */
+	nop				/* 0xfff64f5c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff64f60 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff64f64 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff64f68 54 63 07 3e */
@@ -997,7 +997,7 @@
 	.int	0x5c84183f		/* 0xfff64f90 5c 84 18 3f */
 	.int	0x508c043e		/* 0xfff64f94 50 8c 04 3e */
 	.int	0x480022c8		/* 0xfff64f98 48 00 22 c8 */
-	.int	0x60000000		/* 0xfff64f9c 60 00 00 00 */
+	nop				/* 0xfff64f9c 60 00 00 00 */
 	.int	0x4082237d		/* 0xfff64fa0 40 82 23 7d */
 	.int	0x5584043e		/* 0xfff64fa4 55 84 04 3e */
 	.int	0x480023d9		/* 0xfff64fa8 48 00 23 d9 */
@@ -1021,15 +1021,15 @@
 	.int	0x7c841e30		/* 0xfff64ff0 7c 84 1e 30 */
 	.int	0x508d847e		/* 0xfff64ff4 50 8d 84 7e */
 	.int	0x480021e8		/* 0xfff64ff8 48 00 21 e8 */
-	.int	0x60000000		/* 0xfff64ffc 60 00 00 00 */
+	nop				/* 0xfff64ffc 60 00 00 00 */
 	.int	0x41820078		/* 0xfff65000 41 82 00 78 */
 	.int	0x55a4801e		/* 0xfff65004 55 a4 80 1e */
 	.int	0x7c861831		/* 0xfff65008 7c 86 18 31 */
 	.int	0x50cd843e		/* 0xfff6500c 50 cd 84 3e */
 	.int	0x480021f0		/* 0xfff65010 48 00 21 f0 */
-	.int	0x60000000		/* 0xfff65014 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65018 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6501c 60 00 00 00 */
+	nop				/* 0xfff65014 60 00 00 00 */
+	nop				/* 0xfff65018 60 00 00 00 */
+	nop				/* 0xfff6501c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff65020 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff65024 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff65028 54 63 07 3e */
@@ -1045,7 +1045,7 @@
 	.int	0x5c84183f		/* 0xfff65050 5c 84 18 3f */
 	.int	0x508d043e		/* 0xfff65054 50 8d 04 3e */
 	.int	0x48002208		/* 0xfff65058 48 00 22 08 */
-	.int	0x60000000		/* 0xfff6505c 60 00 00 00 */
+	nop				/* 0xfff6505c 60 00 00 00 */
 	.int	0x408222bd		/* 0xfff65060 40 82 22 bd */
 	.int	0x55a4043e		/* 0xfff65064 55 a4 04 3e */
 	.int	0x48002319		/* 0xfff65068 48 00 23 19 */
@@ -1069,15 +1069,15 @@
 	.int	0x7c841e30		/* 0xfff650b0 7c 84 1e 30 */
 	.int	0x508e847e		/* 0xfff650b4 50 8e 84 7e */
 	.int	0x48002128		/* 0xfff650b8 48 00 21 28 */
-	.int	0x60000000		/* 0xfff650bc 60 00 00 00 */
+	nop				/* 0xfff650bc 60 00 00 00 */
 	.int	0x41820078		/* 0xfff650c0 41 82 00 78 */
 	.int	0x55c4801e		/* 0xfff650c4 55 c4 80 1e */
 	.int	0x7c861831		/* 0xfff650c8 7c 86 18 31 */
 	.int	0x50ce843e		/* 0xfff650cc 50 ce 84 3e */
 	.int	0x48002130		/* 0xfff650d0 48 00 21 30 */
-	.int	0x60000000		/* 0xfff650d4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff650d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff650dc 60 00 00 00 */
+	nop				/* 0xfff650d4 60 00 00 00 */
+	nop				/* 0xfff650d8 60 00 00 00 */
+	nop				/* 0xfff650dc 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff650e0 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff650e4 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff650e8 54 63 07 3e */
@@ -1093,7 +1093,7 @@
 	.int	0x5c84183f		/* 0xfff65110 5c 84 18 3f */
 	.int	0x508e043e		/* 0xfff65114 50 8e 04 3e */
 	.int	0x48002148		/* 0xfff65118 48 00 21 48 */
-	.int	0x60000000		/* 0xfff6511c 60 00 00 00 */
+	nop				/* 0xfff6511c 60 00 00 00 */
 	.int	0x408221fd		/* 0xfff65120 40 82 21 fd */
 	.int	0x55c4043e		/* 0xfff65124 55 c4 04 3e */
 	.int	0x48002259		/* 0xfff65128 48 00 22 59 */
@@ -1117,15 +1117,15 @@
 	.int	0x7c841e30		/* 0xfff65170 7c 84 1e 30 */
 	.int	0x508f847e		/* 0xfff65174 50 8f 84 7e */
 	.int	0x48002068		/* 0xfff65178 48 00 20 68 */
-	.int	0x60000000		/* 0xfff6517c 60 00 00 00 */
+	nop				/* 0xfff6517c 60 00 00 00 */
 	.int	0x41820078		/* 0xfff65180 41 82 00 78 */
 	.int	0x55e4801e		/* 0xfff65184 55 e4 80 1e */
 	.int	0x7c861831		/* 0xfff65188 7c 86 18 31 */
 	.int	0x50cf843e		/* 0xfff6518c 50 cf 84 3e */
 	.int	0x48002070		/* 0xfff65190 48 00 20 70 */
-	.int	0x60000000		/* 0xfff65194 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65198 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6519c 60 00 00 00 */
+	nop				/* 0xfff65194 60 00 00 00 */
+	nop				/* 0xfff65198 60 00 00 00 */
+	nop				/* 0xfff6519c 60 00 00 00 */
 	.int	0x7c6300d0		/* 0xfff651a0 7c 63 00 d0 */
 	.int	0x41820054		/* 0xfff651a4 41 82 00 54 */
 	.int	0x5463073e		/* 0xfff651a8 54 63 07 3e */
@@ -1141,7 +1141,7 @@
 	.int	0x5c84183f		/* 0xfff651d0 5c 84 18 3f */
 	.int	0x508f043e		/* 0xfff651d4 50 8f 04 3e */
 	.int	0x48002088		/* 0xfff651d8 48 00 20 88 */
-	.int	0x60000000		/* 0xfff651dc 60 00 00 00 */
+	nop				/* 0xfff651dc 60 00 00 00 */
 	.int	0x4082213d		/* 0xfff651e0 40 82 21 3d */
 	.int	0x55e4043e		/* 0xfff651e4 55 e4 04 3e */
 	.int	0x48002199		/* 0xfff651e8 48 00 21 99 */
@@ -1165,7 +1165,7 @@
 	.int	0x7d041e30		/* 0xfff65230 7d 04 1e 30 */
 	.int	0x5088f87f		/* 0xfff65234 50 88 f8 7f */
 	.int	0x48001f4c		/* 0xfff65238 48 00 1f 4c */
-	.int	0x60000000		/* 0xfff6523c 60 00 00 00 */
+	nop				/* 0xfff6523c 60 00 00 00 */
 	.int	0x41820038		/* 0xfff65240 41 82 00 38 */
 	.int	0x7d044378		/* 0xfff65244 7d 04 43 78 */
 	.int	0x7d081831		/* 0xfff65248 7d 08 18 31 */
@@ -1188,8 +1188,8 @@
 	.int	0x7cc83a79		/* 0xfff6528c 7c c8 3a 79 */
 	.int	0x4ca80420		/* 0xfff65290 4c a8 04 20 */
 	.int	0x48007e80		/* 0xfff65294 48 00 7e 80 */
-	.int	0x60000000		/* 0xfff65298 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6529c 60 00 00 00 */
+	nop				/* 0xfff65298 60 00 00 00 */
+	nop				/* 0xfff6529c 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff652a0 38 63 ff ff */
 	.int	0x41820074		/* 0xfff652a4 41 82 00 74 */
 	.int	0x7d241c30		/* 0xfff652a8 7d 24 1c 30 */
@@ -1205,7 +1205,7 @@
 	.int	0x7d241e30		/* 0xfff652d0 7d 24 1e 30 */
 	.int	0x5089f87f		/* 0xfff652d4 50 89 f8 7f */
 	.int	0x48001eac		/* 0xfff652d8 48 00 1e ac */
-	.int	0x60000000		/* 0xfff652dc 60 00 00 00 */
+	nop				/* 0xfff652dc 60 00 00 00 */
 	.int	0x41820038		/* 0xfff652e0 41 82 00 38 */
 	.int	0x7d244b78		/* 0xfff652e4 7d 24 4b 78 */
 	.int	0x7d291831		/* 0xfff652e8 7d 29 18 31 */
@@ -1228,8 +1228,8 @@
 	.int	0x7cc93a79		/* 0xfff6532c 7c c9 3a 79 */
 	.int	0x4ca80420		/* 0xfff65330 4c a8 04 20 */
 	.int	0x48007de0		/* 0xfff65334 48 00 7d e0 */
-	.int	0x60000000		/* 0xfff65338 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6533c 60 00 00 00 */
+	nop				/* 0xfff65338 60 00 00 00 */
+	nop				/* 0xfff6533c 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff65340 38 63 ff ff */
 	.int	0x41820074		/* 0xfff65344 41 82 00 74 */
 	.int	0x7d441c30		/* 0xfff65348 7d 44 1c 30 */
@@ -1245,7 +1245,7 @@
 	.int	0x7d441e30		/* 0xfff65370 7d 44 1e 30 */
 	.int	0x508af87f		/* 0xfff65374 50 8a f8 7f */
 	.int	0x48001e0c		/* 0xfff65378 48 00 1e 0c */
-	.int	0x60000000		/* 0xfff6537c 60 00 00 00 */
+	nop				/* 0xfff6537c 60 00 00 00 */
 	.int	0x41820038		/* 0xfff65380 41 82 00 38 */
 	.int	0x7d445378		/* 0xfff65384 7d 44 53 78 */
 	.int	0x7d4a1831		/* 0xfff65388 7d 4a 18 31 */
@@ -1268,8 +1268,8 @@
 	.int	0x7cca3a79		/* 0xfff653cc 7c ca 3a 79 */
 	.int	0x4ca80420		/* 0xfff653d0 4c a8 04 20 */
 	.int	0x48007d40		/* 0xfff653d4 48 00 7d 40 */
-	.int	0x60000000		/* 0xfff653d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff653dc 60 00 00 00 */
+	nop				/* 0xfff653d8 60 00 00 00 */
+	nop				/* 0xfff653dc 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff653e0 38 63 ff ff */
 	.int	0x41820074		/* 0xfff653e4 41 82 00 74 */
 	.int	0x7d641c30		/* 0xfff653e8 7d 64 1c 30 */
@@ -1285,7 +1285,7 @@
 	.int	0x7d641e30		/* 0xfff65410 7d 64 1e 30 */
 	.int	0x508bf87f		/* 0xfff65414 50 8b f8 7f */
 	.int	0x48001d6c		/* 0xfff65418 48 00 1d 6c */
-	.int	0x60000000		/* 0xfff6541c 60 00 00 00 */
+	nop				/* 0xfff6541c 60 00 00 00 */
 	.int	0x41820038		/* 0xfff65420 41 82 00 38 */
 	.int	0x7d645b78		/* 0xfff65424 7d 64 5b 78 */
 	.int	0x7d6b1831		/* 0xfff65428 7d 6b 18 31 */
@@ -1308,8 +1308,8 @@
 	.int	0x7ccb3a79		/* 0xfff6546c 7c cb 3a 79 */
 	.int	0x4ca80420		/* 0xfff65470 4c a8 04 20 */
 	.int	0x48007ca0		/* 0xfff65474 48 00 7c a0 */
-	.int	0x60000000		/* 0xfff65478 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6547c 60 00 00 00 */
+	nop				/* 0xfff65478 60 00 00 00 */
+	nop				/* 0xfff6547c 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff65480 38 63 ff ff */
 	.int	0x41820074		/* 0xfff65484 41 82 00 74 */
 	.int	0x7d841c30		/* 0xfff65488 7d 84 1c 30 */
@@ -1325,7 +1325,7 @@
 	.int	0x7d841e30		/* 0xfff654b0 7d 84 1e 30 */
 	.int	0x508cf87f		/* 0xfff654b4 50 8c f8 7f */
 	.int	0x48001ccc		/* 0xfff654b8 48 00 1c cc */
-	.int	0x60000000		/* 0xfff654bc 60 00 00 00 */
+	nop				/* 0xfff654bc 60 00 00 00 */
 	.int	0x41820038		/* 0xfff654c0 41 82 00 38 */
 	.int	0x7d846378		/* 0xfff654c4 7d 84 63 78 */
 	.int	0x7d8c1831		/* 0xfff654c8 7d 8c 18 31 */
@@ -1348,8 +1348,8 @@
 	.int	0x7ccc3a79		/* 0xfff6550c 7c cc 3a 79 */
 	.int	0x4ca80420		/* 0xfff65510 4c a8 04 20 */
 	.int	0x48007c00		/* 0xfff65514 48 00 7c 00 */
-	.int	0x60000000		/* 0xfff65518 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6551c 60 00 00 00 */
+	nop				/* 0xfff65518 60 00 00 00 */
+	nop				/* 0xfff6551c 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff65520 38 63 ff ff */
 	.int	0x41820074		/* 0xfff65524 41 82 00 74 */
 	.int	0x7da41c30		/* 0xfff65528 7d a4 1c 30 */
@@ -1365,7 +1365,7 @@
 	.int	0x7da41e30		/* 0xfff65550 7d a4 1e 30 */
 	.int	0x508df87f		/* 0xfff65554 50 8d f8 7f */
 	.int	0x48001c2c		/* 0xfff65558 48 00 1c 2c */
-	.int	0x60000000		/* 0xfff6555c 60 00 00 00 */
+	nop				/* 0xfff6555c 60 00 00 00 */
 	.int	0x41820038		/* 0xfff65560 41 82 00 38 */
 	.int	0x7da46b78		/* 0xfff65564 7d a4 6b 78 */
 	.int	0x7dad1831		/* 0xfff65568 7d ad 18 31 */
@@ -1388,8 +1388,8 @@
 	.int	0x7ccd3a79		/* 0xfff655ac 7c cd 3a 79 */
 	.int	0x4ca80420		/* 0xfff655b0 4c a8 04 20 */
 	.int	0x48007b60		/* 0xfff655b4 48 00 7b 60 */
-	.int	0x60000000		/* 0xfff655b8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff655bc 60 00 00 00 */
+	nop				/* 0xfff655b8 60 00 00 00 */
+	nop				/* 0xfff655bc 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff655c0 38 63 ff ff */
 	.int	0x41820074		/* 0xfff655c4 41 82 00 74 */
 	.int	0x7dc41c30		/* 0xfff655c8 7d c4 1c 30 */
@@ -1405,7 +1405,7 @@
 	.int	0x7dc41e30		/* 0xfff655f0 7d c4 1e 30 */
 	.int	0x508ef87f		/* 0xfff655f4 50 8e f8 7f */
 	.int	0x48001b8c		/* 0xfff655f8 48 00 1b 8c */
-	.int	0x60000000		/* 0xfff655fc 60 00 00 00 */
+	nop				/* 0xfff655fc 60 00 00 00 */
 	.int	0x41820038		/* 0xfff65600 41 82 00 38 */
 	.int	0x7dc47378		/* 0xfff65604 7d c4 73 78 */
 	.int	0x7dce1831		/* 0xfff65608 7d ce 18 31 */
@@ -1428,8 +1428,8 @@
 	.int	0x7cce3a79		/* 0xfff6564c 7c ce 3a 79 */
 	.int	0x4ca80420		/* 0xfff65650 4c a8 04 20 */
 	.int	0x48007ac0		/* 0xfff65654 48 00 7a c0 */
-	.int	0x60000000		/* 0xfff65658 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6565c 60 00 00 00 */
+	nop				/* 0xfff65658 60 00 00 00 */
+	nop				/* 0xfff6565c 60 00 00 00 */
 	.int	0x3863ffff		/* 0xfff65660 38 63 ff ff */
 	.int	0x41820074		/* 0xfff65664 41 82 00 74 */
 	.int	0x7de41c30		/* 0xfff65668 7d e4 1c 30 */
@@ -1445,7 +1445,7 @@
 	.int	0x7de41e30		/* 0xfff65690 7d e4 1e 30 */
 	.int	0x508ff87f		/* 0xfff65694 50 8f f8 7f */
 	.int	0x48001aec		/* 0xfff65698 48 00 1a ec */
-	.int	0x60000000		/* 0xfff6569c 60 00 00 00 */
+	nop				/* 0xfff6569c 60 00 00 00 */
 	.int	0x41820038		/* 0xfff656a0 41 82 00 38 */
 	.int	0x7de47b78		/* 0xfff656a4 7d e4 7b 78 */
 	.int	0x7def1831		/* 0xfff656a8 7d ef 18 31 */
@@ -1468,8 +1468,8 @@
 	.int	0x7ccf3a79		/* 0xfff656ec 7c cf 3a 79 */
 	.int	0x4ca80420		/* 0xfff656f0 4c a8 04 20 */
 	.int	0x48007a20		/* 0xfff656f4 48 00 7a 20 */
-	.int	0x60000000		/* 0xfff656f8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff656fc 60 00 00 00 */
+	nop				/* 0xfff656f8 60 00 00 00 */
+	nop				/* 0xfff656fc 60 00 00 00 */
 	.int	0x7d074378		/* 0xfff65700 7d 07 43 78 */
 	.int	0x4e800021		/* 0xfff65704 4e 80 00 21 */
 	.int	0x7ce83b78		/* 0xfff65708 7c e8 3b 78 */
@@ -1588,48 +1588,48 @@
 	.int	0x48000950		/* 0xfff658cc 48 00 09 50 */
 	.int	0x38300004		/* 0xfff658d0 38 30 00 04 */
 	.int	0x4bffd94c		/* 0xfff658d4 4b ff d9 4c */
-	.int	0x60000000		/* 0xfff658d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff658dc 60 00 00 00 */
+	nop				/* 0xfff658d8 60 00 00 00 */
+	nop				/* 0xfff658dc 60 00 00 00 */
 	.int	0x7c310b78		/* 0xfff658e0 7c 31 0b 78 */
 	.int	0x48000918		/* 0xfff658e4 48 00 09 18 */
 	.int	0x7c310b78		/* 0xfff658e8 7c 31 0b 78 */
 	.int	0x48000930		/* 0xfff658ec 48 00 09 30 */
 	.int	0x38310004		/* 0xfff658f0 38 31 00 04 */
 	.int	0x4bffd96c		/* 0xfff658f4 4b ff d9 6c */
-	.int	0x60000000		/* 0xfff658f8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff658fc 60 00 00 00 */
+	nop				/* 0xfff658f8 60 00 00 00 */
+	nop				/* 0xfff658fc 60 00 00 00 */
 	.int	0x7c320b78		/* 0xfff65900 7c 32 0b 78 */
 	.int	0x480008f8		/* 0xfff65904 48 00 08 f8 */
 	.int	0x7c320b78		/* 0xfff65908 7c 32 0b 78 */
 	.int	0x48000910		/* 0xfff6590c 48 00 09 10 */
 	.int	0x38320004		/* 0xfff65910 38 32 00 04 */
 	.int	0x4bffd98c		/* 0xfff65914 4b ff d9 8c */
-	.int	0x60000000		/* 0xfff65918 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6591c 60 00 00 00 */
+	nop				/* 0xfff65918 60 00 00 00 */
+	nop				/* 0xfff6591c 60 00 00 00 */
 	.int	0x7c330b78		/* 0xfff65920 7c 33 0b 78 */
 	.int	0x480008d8		/* 0xfff65924 48 00 08 d8 */
 	.int	0x7c330b78		/* 0xfff65928 7c 33 0b 78 */
 	.int	0x480008f0		/* 0xfff6592c 48 00 08 f0 */
 	.int	0x38330004		/* 0xfff65930 38 33 00 04 */
 	.int	0x4bffd9ac		/* 0xfff65934 4b ff d9 ac */
-	.int	0x60000000		/* 0xfff65938 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6593c 60 00 00 00 */
+	nop				/* 0xfff65938 60 00 00 00 */
+	nop				/* 0xfff6593c 60 00 00 00 */
 	.int	0x7c340b78		/* 0xfff65940 7c 34 0b 78 */
 	.int	0x480008b8		/* 0xfff65944 48 00 08 b8 */
 	.int	0x7c340b78		/* 0xfff65948 7c 34 0b 78 */
 	.int	0x480008d0		/* 0xfff6594c 48 00 08 d0 */
 	.int	0x38340004		/* 0xfff65950 38 34 00 04 */
 	.int	0x4bffd9cc		/* 0xfff65954 4b ff d9 cc */
-	.int	0x60000000		/* 0xfff65958 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6595c 60 00 00 00 */
+	nop				/* 0xfff65958 60 00 00 00 */
+	nop				/* 0xfff6595c 60 00 00 00 */
 	.int	0x7c350b78		/* 0xfff65960 7c 35 0b 78 */
 	.int	0x48000898		/* 0xfff65964 48 00 08 98 */
 	.int	0x7c350b78		/* 0xfff65968 7c 35 0b 78 */
 	.int	0x480008b0		/* 0xfff6596c 48 00 08 b0 */
 	.int	0x38350004		/* 0xfff65970 38 35 00 04 */
 	.int	0x4bffd9ec		/* 0xfff65974 4b ff d9 ec */
-	.int	0x60000000		/* 0xfff65978 60 00 00 00 */
-	.int	0x60000000		/* 0xfff6597c 60 00 00 00 */
+	nop				/* 0xfff65978 60 00 00 00 */
+	nop				/* 0xfff6597c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65980 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65984 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65988 7f 67 07 74 */
@@ -1645,15 +1645,15 @@
 	.int	0x7f670774		/* 0xfff659b0 7f 67 07 74 */
 	.int	0x7c678214		/* 0xfff659b4 7c 67 82 14 */
 	.int	0x48000528		/* 0xfff659b8 48 00 05 28 */
-	.int	0x60000000		/* 0xfff659bc 60 00 00 00 */
+	nop				/* 0xfff659bc 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff659c0 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff659c4 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff659c8 7f 67 07 74 */
 	.int	0x7c678214		/* 0xfff659cc 7c 67 82 14 */
 	.int	0x48000540		/* 0xfff659d0 48 00 05 40 */
-	.int	0x60000000		/* 0xfff659d4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff659d8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff659dc 60 00 00 00 */
+	nop				/* 0xfff659d4 60 00 00 00 */
+	nop				/* 0xfff659d8 60 00 00 00 */
+	nop				/* 0xfff659dc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff659e0 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff659e4 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff659e8 7f 67 07 74 */
@@ -1669,15 +1669,15 @@
 	.int	0x7f670774		/* 0xfff65a10 7f 67 07 74 */
 	.int	0x7c678a14		/* 0xfff65a14 7c 67 8a 14 */
 	.int	0x480004c8		/* 0xfff65a18 48 00 04 c8 */
-	.int	0x60000000		/* 0xfff65a1c 60 00 00 00 */
+	nop				/* 0xfff65a1c 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65a20 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65a24 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65a28 7f 67 07 74 */
 	.int	0x7c678a14		/* 0xfff65a2c 7c 67 8a 14 */
 	.int	0x480004e0		/* 0xfff65a30 48 00 04 e0 */
-	.int	0x60000000		/* 0xfff65a34 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65a38 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65a3c 60 00 00 00 */
+	nop				/* 0xfff65a34 60 00 00 00 */
+	nop				/* 0xfff65a38 60 00 00 00 */
+	nop				/* 0xfff65a3c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65a40 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65a44 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65a48 7f 67 07 74 */
@@ -1693,15 +1693,15 @@
 	.int	0x7f670774		/* 0xfff65a70 7f 67 07 74 */
 	.int	0x7c679214		/* 0xfff65a74 7c 67 92 14 */
 	.int	0x48000468		/* 0xfff65a78 48 00 04 68 */
-	.int	0x60000000		/* 0xfff65a7c 60 00 00 00 */
+	nop				/* 0xfff65a7c 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65a80 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65a84 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65a88 7f 67 07 74 */
 	.int	0x7c679214		/* 0xfff65a8c 7c 67 92 14 */
 	.int	0x48000480		/* 0xfff65a90 48 00 04 80 */
-	.int	0x60000000		/* 0xfff65a94 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65a98 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65a9c 60 00 00 00 */
+	nop				/* 0xfff65a94 60 00 00 00 */
+	nop				/* 0xfff65a98 60 00 00 00 */
+	nop				/* 0xfff65a9c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65aa0 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65aa4 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65aa8 7f 67 07 74 */
@@ -1717,15 +1717,15 @@
 	.int	0x7f670774		/* 0xfff65ad0 7f 67 07 74 */
 	.int	0x7c679a14		/* 0xfff65ad4 7c 67 9a 14 */
 	.int	0x48000408		/* 0xfff65ad8 48 00 04 08 */
-	.int	0x60000000		/* 0xfff65adc 60 00 00 00 */
+	nop				/* 0xfff65adc 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65ae0 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65ae4 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65ae8 7f 67 07 74 */
 	.int	0x7c679a14		/* 0xfff65aec 7c 67 9a 14 */
 	.int	0x48000420		/* 0xfff65af0 48 00 04 20 */
-	.int	0x60000000		/* 0xfff65af4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65af8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65afc 60 00 00 00 */
+	nop				/* 0xfff65af4 60 00 00 00 */
+	nop				/* 0xfff65af8 60 00 00 00 */
+	nop				/* 0xfff65afc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65b00 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65b04 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65b08 7f 67 07 74 */
@@ -1741,15 +1741,15 @@
 	.int	0x7f670774		/* 0xfff65b30 7f 67 07 74 */
 	.int	0x7c67a214		/* 0xfff65b34 7c 67 a2 14 */
 	.int	0x480003a8		/* 0xfff65b38 48 00 03 a8 */
-	.int	0x60000000		/* 0xfff65b3c 60 00 00 00 */
+	nop				/* 0xfff65b3c 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65b40 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65b44 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65b48 7f 67 07 74 */
 	.int	0x7c67a214		/* 0xfff65b4c 7c 67 a2 14 */
 	.int	0x480003c0		/* 0xfff65b50 48 00 03 c0 */
-	.int	0x60000000		/* 0xfff65b54 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65b58 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65b5c 60 00 00 00 */
+	nop				/* 0xfff65b54 60 00 00 00 */
+	nop				/* 0xfff65b58 60 00 00 00 */
+	nop				/* 0xfff65b5c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65b60 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65b64 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65b68 7f 67 07 74 */
@@ -1765,15 +1765,15 @@
 	.int	0x7f670774		/* 0xfff65b90 7f 67 07 74 */
 	.int	0x7c67aa14		/* 0xfff65b94 7c 67 aa 14 */
 	.int	0x48000348		/* 0xfff65b98 48 00 03 48 */
-	.int	0x60000000		/* 0xfff65b9c 60 00 00 00 */
+	nop				/* 0xfff65b9c 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65ba0 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65ba4 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65ba8 7f 67 07 74 */
 	.int	0x7c67aa14		/* 0xfff65bac 7c 67 aa 14 */
 	.int	0x48000360		/* 0xfff65bb0 48 00 03 60 */
-	.int	0x60000000		/* 0xfff65bb4 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65bb8 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65bbc 60 00 00 00 */
+	nop				/* 0xfff65bb4 60 00 00 00 */
+	nop				/* 0xfff65bb8 60 00 00 00 */
+	nop				/* 0xfff65bbc 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65bc0 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65bc4 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65bc8 7f 67 07 74 */
@@ -1789,15 +1789,15 @@
 	.int	0x7f670774		/* 0xfff65bf0 7f 67 07 74 */
 	.int	0x7c67b214		/* 0xfff65bf4 7c 67 b2 14 */
 	.int	0x480002e8		/* 0xfff65bf8 48 00 02 e8 */
-	.int	0x60000000		/* 0xfff65bfc 60 00 00 00 */
+	nop				/* 0xfff65bfc 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65c00 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65c04 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65c08 7f 67 07 74 */
 	.int	0x7c67b214		/* 0xfff65c0c 7c 67 b2 14 */
 	.int	0x48000300		/* 0xfff65c10 48 00 03 00 */
-	.int	0x60000000		/* 0xfff65c14 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65c18 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65c1c 60 00 00 00 */
+	nop				/* 0xfff65c14 60 00 00 00 */
+	nop				/* 0xfff65c18 60 00 00 00 */
+	nop				/* 0xfff65c1c 60 00 00 00 */
 	.int	0xaf780002		/* 0xfff65c20 af 78 00 02 */
 	.int	0xa8d8fffe		/* 0xfff65c24 a8 d8 ff fe */
 	.int	0x7f670774		/* 0xfff65c28 7f 67 07 74 */
@@ -1813,15 +1813,15 @@
 	.int	0x7f670774		/* 0xfff65c50 7f 67 07 74 */
 	.int	0x7c670a14		/* 0xfff65c54 7c 67 0a 14 */
 	.int	0x48000288		/* 0xfff65c58 48 00 02 88 */
-	.int	0x60000000		/* 0xfff65c5c 60 00 00 00 */
+	nop				/* 0xfff65c5c 60 00 00 00 */
 	.int	0xaf780004		/* 0xfff65c60 af 78 00 04 */
 	.int	0x80d8fffc		/* 0xfff65c64 80 d8 ff fc */
 	.int	0x7f670774		/* 0xfff65c68 7f 67 07 74 */
 	.int	0x7c670a14		/* 0xfff65c6c 7c 67 0a 14 */
 	.int	0x480002a0		/* 0xfff65c70 48 00 02 a0 */
-	.int	0x60000000		/* 0xfff65c74 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65c78 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65c7c 60 00 00 00 */
+	nop				/* 0xfff65c74 60 00 00 00 */
+	nop				/* 0xfff65c78 60 00 00 00 */
+	nop				/* 0xfff65c7c 60 00 00 00 */
 	.int	0xa0d00000		/* 0xfff65c80 a0 d0 00 00 */
 	.int	0x3a100002		/* 0xfff65c84 3a 10 00 02 */
 	.int	0x48000828		/* 0xfff65c88 48 00 08 28 */
@@ -2008,12 +2008,12 @@
 	.int	0x7c632a14		/* 0xfff65f5c 7c 63 2a 14 */
 	.int	0x4e800020		/* 0xfff65f60 4e 80 00 20 */
 	.int	0x4800001c		/* 0xfff65f64 48 00 00 1c */
-	.int	0x60000000		/* 0xfff65f68 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65f6c 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65f70 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65f74 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65f78 60 00 00 00 */
-	.int	0x60000000		/* 0xfff65f7c 60 00 00 00 */
+	nop				/* 0xfff65f68 60 00 00 00 */
+	nop				/* 0xfff65f6c 60 00 00 00 */
+	nop				/* 0xfff65f70 60 00 00 00 */
+	nop				/* 0xfff65f74 60 00 00 00 */
+	nop				/* 0xfff65f78 60 00 00 00 */
+	nop				/* 0xfff65f7c 60 00 00 00 */
 	.int	0x54a5083c		/* 0xfff65f80 54 a5 08 3c */
 	.int	0x7ce03120		/* 0xfff65f84 7c e0 31 20 */
 	.int	0x41980068		/* 0xfff65f88 41 98 00 68 */
@@ -2037,7 +2037,7 @@
 	.int	0xaf780004		/* 0xfff65fd0 af 78 00 04 */
 	.int	0x7c633a14		/* 0xfff65fd4 7c 63 3a 14 */
 	.int	0x4e800020		/* 0xfff65fd8 4e 80 00 20 */
-	.int	0x60000000		/* 0xfff65fdc 60 00 00 00 */
+	nop				/* 0xfff65fdc 60 00 00 00 */
 	.int	0x54a5083c		/* 0xfff65fe0 54 a5 08 3c */
 	.int	0x7ce03120		/* 0xfff65fe4 7c e0 31 20 */
 	.int	0x54a5103a		/* 0xfff65fe8 54 a5 10 3a */
