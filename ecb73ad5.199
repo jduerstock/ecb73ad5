@@ -1952,7 +1952,7 @@
 	.int	0x7fe3fb78		/* 0xffd8fe7c 7f e3 fb 78 */
 	.int	0x38a10038		/* 0xffd8fe80 38 a1 00 38 */
 	.int	0x48000199		/* 0xffd8fe84 48 00 01 99 */
-	.int	0x60000000		/* 0xffd8fe88 60 00 00 00 */
+	nop				/* 0xffd8fe88 60 00 00 00 */
 	.int	0x2c030000		/* 0xffd8fe8c 2c 03 00 00 */
 	.int	0x4182000c		/* 0xffd8fe90 41 82 00 0c */
 	.int	0x3860f4fc		/* 0xffd8fe94 38 60 f4 fc */
