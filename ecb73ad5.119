@@ -1613,7 +1613,7 @@
 	.int	0x7c0803a6		/* 0xffcef930 7c 08 03 a6 */
 	.int	0xb9a1ffb0		/* 0xffcef934 b9 a1 ff b0 */
 	.int	0x7d8ff120		/* 0xffcef938 7d 8f f1 20 */
-	.int	0x4e800020		/* 0xffcef93c 4e 80 00 20 */
+	blr				/* 0xffcef93c 4e 80 00 20 */
 	.int	0x28800000		/* 0xffcef940 28 80 00 00 */
 	.int	0x7c0802a6		/* 0xffcef944 7c 08 02 a6 */
 	.int	0x7d800026		/* 0xffcef948 7d 80 00 26 */
