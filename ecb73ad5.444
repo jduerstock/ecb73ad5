@@ -25,7 +25,7 @@
 	.int	0x83bf0074		/* 0xfff78060 83 bf 00 74 */
 	.int	0x83df0078		/* 0xfff78064 83 df 00 78 */
 	.int	0x7ce43b78		/* 0xfff78068 7c e4 3b 78 */
-	.int	0x4e800020		/* 0xfff7806c 4e 80 00 20 */
+	blr				/* 0xfff7806c 4e 80 00 20 */
 	.int	0x7ca802a6		/* 0xfff78070 7c a8 02 a6 */
 	.int	0x4c842182		/* 0xfff78074 4c 84 21 82 */
 	.int	0xa07f0b34		/* 0xfff78078 a0 7f 0b 34 */
